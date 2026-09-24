@@ -3,7 +3,7 @@
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
-    "notice":"明珠耀月，和美团圆-Easy祝你中秋节快乐",
+    "notice":"明珠耀月，和美团圆，Easy祝愿你：中秋节快乐",
     "sites": [
         {
             "key": "豆瓣",
