@@ -1478,7 +1478,7 @@
         {
             "name": "EasyTV",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/api/tv.png",
+            "url": "https://easyzz.dpdns.org/api/tv.png",
             "timeout": 10,
             "changeable": 1,
             "playerType": 2
