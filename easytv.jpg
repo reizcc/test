@@ -27,7 +27,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 09-24-11:24",
+            "name": "本地视频 | 09-26-11:00",
             "type": 3,
             "api": "csp_LocalFile"
         },
@@ -37,22 +37,6 @@
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
-        },
-        {
-            "key": "小霸王在线",
-            "name": "🎮小霸王[游戏]",
-            "type": 3,
-            "api": "csp_Yikm",
-			"jar": "./jar/xbw.jar",
-            "searchable": 0,
-            "quickSearch": 0,
-            "filterable": 1,
-            "changeable": 0,
-            "style": {
-                "type": "rect",
-                "ratio": 0.75
-            },
-            "timeout": 60
         },
         {
             "key": "玩偶",
