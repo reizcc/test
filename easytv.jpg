@@ -1,5 +1,5 @@
 {
-    "spider": "./jar/easy.jar",
+    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy.jpg",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -27,7 +27,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 09-26-11:00",
+            "name": "本地视频 | 09-27-15:00",
             "type": 3,
             "api": "csp_LocalFile"
         },
