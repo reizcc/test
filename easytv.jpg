@@ -1,5 +1,5 @@
 {
-    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy.png",
+    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy09.28.png",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
