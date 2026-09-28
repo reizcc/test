@@ -1449,20 +1449,18 @@
         {
             "name": "EasyTV",
             "type": 0,
-            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/api/tv.png",
+            "url": "https://easyzz.dpdns.org/api/tv.png",
             "timeout": 10,
             "changeable": 1,
             "playerType": 2
         },
         {
-            "name": "migu",
+            "name": "Easy秒播",
             "type": 0,
-            "url": "https://develop202.github.io/migu_video/interface.txt",
-            "playerType": 1,
-            "ua": "okhttp/3.8.1",
-            "timeout": 20,
-            "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
-            "logo": "https://logo.wyfc.qzz.io/{name}.png"
+            "url": "http://45.192.97.170:5211/311758",
+            "timeout": 10,
+            "changeable": 1,
+            "playerType": 2
         }
     ],
     "parses": [
