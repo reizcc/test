@@ -1,9 +1,8 @@
 {
-    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy.jpg",
+    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy.png",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "./logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
-    "notice":"明珠耀月，和美团圆，Easy祝愿你：中秋节快乐",
     "sites": [
         {
             "key": "豆瓣",
@@ -27,7 +26,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 09-27-15:00",
+            "name": "本地视频 | 09.28",
             "type": 3,
             "api": "csp_LocalFile"
         },
@@ -394,7 +393,7 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 1,
-            "ext": "http://43.248.117.123:4680"
+            "ext": "http://43.248.117.123:14680"
         },
         {
             "key": "咕噜",
@@ -869,19 +868,6 @@
                 "分类url": "https://v.aiwule.com/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html",
                 "分类": "电影$20#电视剧$21#动漫$23#综艺$22#短剧$47",
                 "简介": "简介：&&"
-            }
-        },
-        {
-            "key": "永乐影视",
-            "name": "永乐 | 影视",
-            "type": 3,
-            "api": "csp_XBPQ",
-            "ext": {
-                "请求头": "User-Agent$MOBILE_UA",
-                "编码": "UTF-8",
-                "分类": "电影$1#电视剧$2#综艺$3#动漫$4",
-                "类型": "动作片$6#喜剧片$7#爱情片$8#科幻片$9#奇幻片$10#恐怖片$11#剧情片$12#战争片$20#动画片$26#悬疑片$22#冒险片$23#犯罪片$24#惊悚片$45#歌舞片$46#灾难片$47#网络片$48||国产剧$13#港台剧$14#日剧$15#韩剧$33#欧美剧$16#泰剧$34#新马剧$35#其他剧$25||内地综艺$27#港台综艺$28#日本综艺$29#韩国综艺$36#欧美综艺$30#新马泰综艺$37#其他综艺$38||国产动漫$31#日本动漫$32#韩国动漫$39#港台动漫$40#新马泰动漫$41#欧美动漫$42#其他动漫$43",
-                "分类url": "https://www.ylys.tv/vodshow/{cateId}-{area}-{by}-{class}-{lang}-{letter}---{catePg}---{year}.html"
             }
         },
         {
@@ -1463,18 +1449,20 @@
         {
             "name": "EasyTV",
             "type": 0,
-            "url": "https://easyzz.dpdns.org/api/tv.png",
+            "url": "https://gh-proxy.com/https://raw.githubusercontent.com/EasyXC/EasyTVbox/main/api/tv.png",
             "timeout": 10,
             "changeable": 1,
             "playerType": 2
         },
         {
-            "name": "Easy秒播",
+            "name": "migu",
             "type": 0,
-            "url": "http://45.192.97.170:5211/311758",
-            "timeout": 10,
-            "changeable": 1,
-            "playerType": 2
+            "url": "https://develop202.github.io/migu_video/interface.txt",
+            "playerType": 1,
+            "ua": "okhttp/3.8.1",
+            "timeout": 20,
+            "epg": "https://epg.cdn.loc.cc/?ch={name}&date={date}",
+            "logo": "https://logo.wyfc.qzz.io/{name}.png"
         }
     ],
     "parses": [
