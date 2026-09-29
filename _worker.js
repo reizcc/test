@@ -1,37 +1,42 @@
 export default {
   async fetch(request, env, ctx) {
-    const { cf } = request;
     const url = new URL(request.url);
 
-    // ===== Bot检测：爬虫直接403 =====
-    const botScore = cf.botManagement?.score ?? 100;
-    // Bot分数低于30判定爬虫，直接拒绝
-    if (botScore < 30) {
-      return new Response("访问被拒绝，检测到自动化爬虫", { status: 403 });
+    // ========== 新增 easytv.jpg 伪装图片JSON路由 ==========
+    if (url.pathname === "/easytv.jpg") {
+      // 在这里替换成你自己的TVBox JSON配置
+      const tvJson = {
+        "sites": [
+          {"key":"easy","name":"EasyTV"}
+        ]
+      };
+      return new Response(JSON.stringify(tvJson), {
+        headers: {
+          "Content-Type": "image/jpeg", // 伪装jpg图片
+          "Cache-Control": "public" // 方便CF缓存规则生效
+        }
+      });
+    }
+    // =====================================================
+
+    // 下面是原版代码，不用改动
+    const path = url.pathname;
+    if (!path.startsWith("/api/")) {
+      return new Response("404: Not Found", { status: 404 });
     }
 
-    // ===== 反代目标：github reizcc/test仓库 =====
-    const targetHost = "raw.githubusercontent.com";
-    url.hostname = targetHost;
-    // 拼接仓库路径，把你的域名请求转发到 reizcc/test
-    url.pathname = `/reizcc/test${url.pathname}`;
-
-    const newReq = new Request(url, request);
-    // 清除部分危险头
-    newReq.headers.delete("host");
-
-    // 请求上游GitHub
-    const upstreamResp = await fetch(newReq);
-
-    // 给静态资源添加缓存头，配合CF缓存规则
-    const newHeaders = new Headers(upstreamResp.headers);
-    if(url.pathname.match(/\.(js|css|png|jpg|svg|txt|json|md)$/)){
-      newHeaders.set("Cache-Control", "public, max-age=3600");
-    }
-
-    return new Response(upstreamResp.body, {
-      status: upstreamResp.status,
-      headers: newHeaders
+    const targetUrl = path.replace("/api/", "");
+    const finalUrl = decodeURIComponent(targetUrl);
+    const res = await fetch(finalUrl, {
+      method: request.method,
+      headers: request.headers,
+      body: request.body,
+      redirect: "follow"
     });
-  },
+
+    return new Response(res.body, {
+      status: res.status,
+      headers: res.headers
+    });
+  }
 };
