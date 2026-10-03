@@ -1,12 +1,12 @@
 {
-    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy09.28.png;md5;af014fd37ff81bf816d53bfeac25e009",
+    "spider": "https://raw.giteeusercontent.com/easy999/test1/raw/main/easy.png;md5;a348cc727691261985cca0b5d55a9f2d",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "https://raw.giteeusercontent.com/easy999/test1/raw/main/logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
         {
             "key": "豆瓣",
-            "name": "EasyTV | 公众号：熵侦（shāng zhēn）",
+            "name": "防失联公众号：熵侦（shāng zhēn）",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -26,7 +26,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 09.30 12:01",
+            "name": "本地视频 | 10.03",
             "type": 3,
             "api": "csp_LocalFile"
         },
@@ -172,7 +172,8 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "https://www.hjzhencai.top"
+                    "https://www.hjzhencai.top",
+                    "https://www.huanjuanwp.shop"
                 ]
             },
             "timeout": 60
@@ -519,7 +520,7 @@
             "ext": {
                 "appName": "橘汁",
                 "publicKey": "MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCr8SzZhjYy+rsya1K09t8d2K50pWFoBkgUqMpKOiW+3IEVKd4eTdvg9RSOjQ82kypL6R9BnsmrS1V8s4PVDwjQbUtYhTPPC9Hz16qY7rpD6m0d2vr09/UpWQ5uOy9PR0QTrsioveZ+DIe9jc3C+zBCu/kZSY/R8stwJoiitki3gwIDAQAB",
-                "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0=",
+                "dataKey": "OW1WBLFZCLJ0WTNJQMRSZ2DYSGNBPT0",
                 "dataIv": "OC1A06E197EF10CF3F6058CA7A803B5E",
                 "pkg": "com.mxj.wylcjbxyx",
                 "host": "",
