@@ -6,7 +6,7 @@
     "sites": [
         {
             "key": "豆瓣",
-            "name": "防失联公众号：熵侦（shāng zhēn）",
+            "name": "EasyTV | Q群：807916734",
             "type": 3,
             "api": "csp_Douban",
             "searchable": 0
@@ -26,7 +26,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 10.08",
+            "name": "本地视频 | 26.10.08",
             "type": 3,
             "api": "csp_LocalFile"
         },
@@ -36,6 +36,21 @@
             "type": 3,
             "api": "csp_YGP",
             "searchable": 0
+        },
+        {
+            "key": "小霸王本地",
+            "name": "🎮小霸王 | 游戏",
+            "type": 3,
+            "api": "./py/小霸王.py",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "changeable": 0,
+            "style": {
+                "type": "rect",
+                "ratio": 0.75
+            },
+            "timeout": 60
         },
         {
             "key": "玩偶",
@@ -191,8 +206,7 @@
             "changeable": 1,
             "ext": {
                 "site": [
-                    "https://www.hjzhencai.top",
-                    "https://www.huanjuanwp.shop"
+                    "https://www.hjzhencai.top"
                 ]
             },
             "timeout": 60
@@ -275,25 +289,14 @@
             "timeout": 60
         },
         {
-            "name": "嗷呜瓜子 ┃ 秒播",
-            "key": "Guazi",
-            "type": 3,
-            "api": "csp_GuaziAmns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "Guazi"
-        },
-        {
             "name": "嗷呜①线 | 秒播",
             "key": "AppV7Fz",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Fz"
         },
         {
@@ -301,10 +304,10 @@
             "key": "AppV7Xy",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Xy"
         },
         {
@@ -312,10 +315,10 @@
             "key": "AppV7Zjdr",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Zjdr"
         },
         {
@@ -323,10 +326,10 @@
             "key": "AppV7Xyz",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Xyz"
         },
         {
@@ -334,10 +337,10 @@
             "key": "AppV7Xnm",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Xnm"
         },
         {
@@ -345,10 +348,10 @@
             "key": "AppV7Mtq",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Mtq"
         },
         {
@@ -356,10 +359,10 @@
             "key": "AppV7Llq",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Llq"
         },
         {
@@ -367,10 +370,10 @@
             "key": "AppV7Xsz",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Xsz"
         },
         {
@@ -378,22 +381,11 @@
             "key": "AppV7Xhr",
             "type": 3,
             "api": "csp_AppV7Amns",
-			"jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
+            "jar": "https://file.icve.com.cn/file_doc/305/994/4C4F8A2CE645A5539405DEFE99D17FA3.png",
             "searchable": 1,
             "quickSearch": 1,
-            "changeable": 1,
+            "changeable": 0,
             "ext": "AppV7Xhr"
-        },
-        {
-            "name": "嗷呜⑩线 | 秒播",
-            "key": "AppV7Dsx",
-            "type": 3,
-            "api": "csp_AppV7Amns",
-            "jar": "https://file.icve.com.cn/file_doc/81/326/14751AFEF3EF30B1AFFFA398F1E9D961.png",
-            "searchable": 1,
-            "quickSearch": 1,
-            "changeable": 1,
-            "ext": "AppV7Dsx"
         },
         {
             "key": "热播影视",
@@ -415,6 +407,16 @@
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
+        },
+        {
+            "key": "爱看",
+            "name": "爱看 | APP",
+            "type": 3,
+            "api": "csp_AiKan",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 1,
+            "ext": "http://43.248.117.123:14680"
         },
         {
             "key": "咕噜",
@@ -1512,7 +1514,7 @@
         {
             "name": "Easy秒播",
             "type": 0,
-            "url": "http://45.192.97.170:5211/922816",
+            "url": "http://45.192.97.170:5211/311758",
             "timeout": 10,
             "changeable": 1,
             "playerType": 2
