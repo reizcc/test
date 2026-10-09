@@ -1497,14 +1497,6 @@
             "timeout": 10,
             "changeable": 1,
             "playerType": 2
-        },
-        {
-            "name": "Easy秒播",
-            "type": 0,
-            "url": "http://45.192.97.170:5211/922816",
-            "timeout": 10,
-            "changeable": 1,
-            "playerType": 2
         }
     ],
     "parses": [
