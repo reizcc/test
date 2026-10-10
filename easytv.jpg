@@ -1,5 +1,5 @@
 {
-    "spider": "https://img2.tofaka.com/autoupload/f/l7b72/20261008/34LT/0X0/easy10.08.png;md5;b5c71cca5b4e242af6feb755e9cac308",
+    "spider": "https://img2.tofaka.com/autoupload/f/l7b72/20261010/nq9B/0X0/easy10.10.png;md5;fe8671b410a2d2e9e3a90b7fc79ee76e",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "https://raw.giteeusercontent.com/easy999/test1/raw/main/logo.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -26,7 +26,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 10.8",
+            "name": "本地视频 | 10.10",
             "type": 3,
             "api": "csp_LocalFile"
         },
