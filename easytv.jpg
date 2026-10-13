@@ -1,7 +1,7 @@
 {
-    "spider": "https://gitee.com/easy999/test1/raw/main/easy10.10.jar;md5;1210460ca32b5e0b6be4d68743fc57c2",
+    "spider": "https://gitee.com/easy999/test1/raw/main/easy10.12.png;md5;06d44c270d2e20681567b04bf9a30352",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
-    "logo": "https://raw.giteeusercontent.com/easy999/test1/raw/main/logo.gif",
+    "logo": "https://pan.gt68.cn/view.php/f0415fd5eb3457d4b897056374a8a5c0.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
         {
@@ -26,7 +26,7 @@
         },
         {
             "key": "本地",
-            "name": "本地视频 | 10.10",
+            "name": "本地视频 | 10.12",
             "type": 3,
             "api": "csp_LocalFile"
         },
