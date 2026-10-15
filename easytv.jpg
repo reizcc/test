@@ -1,5 +1,5 @@
 {
-    "spider": "https://gitee.com/easy999/test1/raw/main/easy10.15.png;md5;cd34343f0cf857eeee5d10ae021da6f1",
+    "spider": "https://gitee.com/easy999/test1/raw/main/easy1015.png;md5;6a1a668098762d342340c6c22e31eec6",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
     "logo": "https://pan.gt68.cn/view.php/f0415fd5eb3457d4b897056374a8a5c0.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
@@ -401,6 +401,15 @@
             "name": "一起 | APP",
             "type": 3,
             "api": "csp_AppYQK",
+            "searchable": 1,
+            "quickSearch": 1,
+            "filterable": 0
+        },
+        {
+            "key": "番茄影视",
+            "name": "番茄 | APP",
+            "type": 3,
+            "api": "csp_AppFQ",
             "searchable": 1,
             "quickSearch": 1,
             "filterable": 0
