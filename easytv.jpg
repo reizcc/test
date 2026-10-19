@@ -1,7 +1,7 @@
 {
     "spider": "https://gitee.com/easy999/test1/raw/main/easy1018.png;md5;155a64d75ff665e2761a7a190196c7ed",
     "wallpaper": "http://127.0.0.1:9978/proxy?do=wallpaper",
-    "logo": "./logo.gif",
+    "logo": "https://pan.gt68.cn/view.php/f0415fd5eb3457d4b897056374a8a5c0.gif",
     "danmaku": "http://127.0.0.1:9978/proxy?do=danmaku&name={name}&episode={episode}",
     "sites": [
         {
