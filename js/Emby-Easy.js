@@ -1,7 +1,7 @@
 /*"Emby服务器URL (例如 http://localhost:8096): "*/
 let host = 'https://link01.okemby.org:8443/';
-let Token = "44ebd05d550b43b9bdbf8237a2647263";
-let Users = "0cf258acffe14ff69c85a3181ce0dc32";
+let Token = "0cf258acffe14ff69c85a3181ce0dc32";
+let Users = "305755a70cda4c1abc6b10fae4b0810c";
 let headers = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
     "Referer": host + "/",
