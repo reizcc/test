@@ -1611,7 +1611,7 @@
         {
             "name": "（NBA）可用于切换接口",
             "type": 0,
-            "url": "./nba.m3u",
+            "url": "./api/nba.m3u",
             "playerType": 2
         }
     ],
