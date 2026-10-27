@@ -1611,7 +1611,7 @@
         {
             "name": "体育赛事",
             "type": 0,
-            "url": "./api/nba.m3u",
+            "url": "./api/sports.m3u",
             "playerType": 2
         }
     ],
